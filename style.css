@@ -35,21 +35,19 @@ body {
 }
 
 .button {
-    transition: all .5s ease;
-    border: 1.5px solid white;
-    display: flex;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    background-color: transparent;
-    border-radius: 5px;
-    width: 100%;
-    color: white;
-    height: 20%;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    outline: none;
-    line-height: 1;
-    text-transform: uppercase;
+  transition: all 0.5s ease;
+  border: 1.5px solid white;
+  margin: 0 auto; /* Correct way to center block elements */
+  background-color: transparent;
+  border-radius: 5px;
+  width: fit-content; /* or set a fixed width like 200px */
+  color: white;
+  padding: 10px 20px; /* gives it height and width */
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  outline: none;
+  text-transform: uppercase;
+  display: block; /* Make it a block-level element for margin auto to work */
 }
 
 .button:hover {
