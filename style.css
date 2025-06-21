@@ -37,17 +37,20 @@ body {
 .button {
   transition: all 0.5s ease;
   border: 1.5px solid white;
-  margin: 0 auto; /* Correct way to center block elements */
+  margin: 10px auto;
   background-color: transparent;
   border-radius: 5px;
-  width: fit-content; /* or set a fixed width like 200px */
+  padding: 14px 24px; /* More padding for finger taps */
   color: white;
-  padding: 10px 20px; /* gives it height and width */
   font-family: 'Lato', sans-serif;
-  text-align: center;
-  outline: none;
   text-transform: uppercase;
-  display: block; /* Make it a block-level element for margin auto to work */
+  text-align: center;
+  font-size: 1rem; /* Responsive font */
+  display: block;
+  width: 80%; /* Use a percentage width on mobile */
+  max-width: 300px; /* But don't let it get too wide */
+  min-height: 44px; /* Accessibility guideline for tap targets */
+  outline: none;
 }
 
 .button:hover {
