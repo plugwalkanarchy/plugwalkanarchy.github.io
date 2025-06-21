@@ -58,10 +58,11 @@ body {
 }
 
 .tiktok {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    
 }
 .discord {
     display: block;
