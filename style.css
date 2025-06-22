@@ -36,7 +36,7 @@ body {
 
 .button {
     transition: all .5s ease;
-    border: 15px solid white;
+    border: 2px solid white;
     display: flex;
     margin-left: 0 auto;
     margin-right: 0 auto;
