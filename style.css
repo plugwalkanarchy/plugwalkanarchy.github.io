@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 
 body {
     background-color: black;
@@ -16,8 +16,8 @@ body {
     background-color: black;
 }
 
-.rubik-burned-regular {
-  font-family: "Rubik Burned", system-ui;
+.rubik-wet-paint-regular {
+  font-family: "Rubik Wet Paint", system-ui;
   font-weight: 400;
   font-style: normal;
 }
@@ -52,7 +52,7 @@ body {
     max-width: 400px;
     color: white;
     padding: 16px 32px;
-    font-family: 'Rubik Burned', system-ui;
+    font-family: 'Rubik Wet Paint', system-ui;
     text-align: center;
     outline: none;
     line-height: 1.5;
