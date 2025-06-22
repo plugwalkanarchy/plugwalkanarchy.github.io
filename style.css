@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
 
 body {
     background-color: black;
@@ -15,7 +15,13 @@ body {
     opacity: 50%;
     background-color: black;
 }
-  
+
+.rubik-burned-regular {
+  font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
   .pfp {
     border-radius: 50%;
     height: 100px;
@@ -27,6 +33,7 @@ body {
     z-index: 2;
 
 }
+
 
 .line {
     width: 50px;
@@ -45,7 +52,7 @@ body {
     max-width: 400px;
     color: white;
     padding: 16px 32px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik Burned', system-ui;
     text-align: center;
     outline: none;
     line-height: 1.5;
